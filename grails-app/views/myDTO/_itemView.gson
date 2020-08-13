@@ -1,0 +1,9 @@
+import com.myapp.dto.MyDTO
+
+model {
+    MyDTO myDTO
+}
+
+json {
+    afield myDTO.afield
+}

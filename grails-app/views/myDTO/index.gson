@@ -1,0 +1,7 @@
+import com.myapp.dto.MyDTO
+
+model {
+    List<MyDTO> myDTOList
+}
+
+json tmpl.itemView(myDTOList)
